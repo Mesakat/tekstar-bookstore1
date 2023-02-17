@@ -3,14 +3,14 @@ kind: ClusterConfig
 
 metadata:
   name: eks-acg
-  region: us-east-1
-  version: "1.20"
+  region: us-east-2
+  version: "1.24"
 
 vpc:
   cidr: 10.0.0.0/16
 
 nodeGroups:
-  - name: eks-node-group
-    instanceType: t3.micro
+  - name: eks-node-group-v2
+    instanceType: t2.micro
     desiredCapacity: 3
     privateNetworking: true
