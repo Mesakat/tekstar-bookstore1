@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mariomerco/renting-api
+  repository: tekstar-bookstore1/renting-api
   tag: latest
   pullPolicy: Always
 
